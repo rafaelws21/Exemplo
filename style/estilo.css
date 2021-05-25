@@ -1,0 +1,44 @@
+body, html {
+  background-color: rgb(241, 242, 245);
+  margin: 0;
+}
+
+#titulo {
+  border: 1px solid #5a5a5a;
+  padding: 15px;
+}
+
+h1 {
+  color: blue;
+}
+h2 {
+  color: aquamarine;
+}
+
+h3 {
+  color: brown;
+}
+
+h4 {
+  color: chartreuse;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 300px;
+  background: rgb(82, 133, 243);
+}
+
+
+@media (max-width: 576px) { 
+  #titulo {
+    border: 1px solid #ec5252;
+    padding: 10px;
+  }
+}
